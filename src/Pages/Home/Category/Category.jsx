@@ -48,7 +48,7 @@ const Category = () => {
           <SwiperSlide>
             <div className="relative group cursor-pointer rounded-lg overflow-hidden shadow-lg">
               <img
-                src={image2}
+                src={image3}
                 alt="Soups"
                 className="w-full h-68 object-cover transition-transform duration-300 group-hover:scale-105"
               />
@@ -62,7 +62,7 @@ const Category = () => {
           <SwiperSlide>
             <div className="relative group cursor-pointer rounded-lg overflow-hidden shadow-lg">
               <img
-                src={image3}
+                src={image2}
                 alt="Pizzas"
                 className="w-full h-68 object-cover transition-transform duration-300 group-hover:scale-105"
               />

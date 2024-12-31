@@ -34,8 +34,8 @@ const Navbar = () => {
   );
   return (
     <div>
-      <nav className="bg-gray-800 text-white">
-        <div className="container mx-auto flex justify-between items-center py-4 px-6">
+      <nav className="bg-gray-800  text-white">
+        <div className="w-full fixed z-30 bg-gray-800 mx-auto flex justify-between items-center py-4 px-6">
           <div className="text-2xl font-bold">Bistro Boss</div>
           <div className="hidden md:flex space-x-6">{items}</div>
           <button

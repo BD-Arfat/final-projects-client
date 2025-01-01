@@ -4,6 +4,7 @@ import Category from "../Category/Category";
 import Abouts from "../Abouts/Abouts";
 import Menu from "../Menu/Menu";
 import Calls from "../Calls/Calls";
+import OurMenu from "../OurMenu/OurMenu";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Abouts></Abouts>
       <Menu></Menu>
       <Calls></Calls>
+      <OurMenu></OurMenu>
     </div>
   );
 };
